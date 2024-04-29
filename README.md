@@ -1,4 +1,4 @@
-Entendido, aqui está o README revisado para refletir que ambos os módulos são backends de microserviços:
+
 
 ---
 
