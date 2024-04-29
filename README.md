@@ -1,40 +1,57 @@
-
+Here's an improved version of the README, incorporating the requested sections:
 
 ---
 
 # E-commerce Microservices with Go-lang and RabbitMQ
 
-## Overview
-This repository contains two microservices implemented in Go (Golang), utilizing ORM for data persistence and following the principles of clean architecture. Integrated with RabbitMQ for asynchronous messaging, these microservices facilitate efficient communication within a distributed e-commerce system, focusing on backend functionalities.
+![E-commerce Microservices](https://example.com/e-commerce-microservices.jpg)
 
-## Modules
-1. **Microservice E-commerce (microsservice-ecommerce):**
-   - Implements order management functionalities using clean architecture principles.
-   - Utilizes ORM for data persistence.
-   - Leverages parallelism for efficient order processing.
-   - Notifies the admin backend about order-related actions via RabbitMQ.
+## Badges
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/peacevan/golang-microsservice-with-rabbitmq/blob/main/LICENSE)
 
-2. **Microservice E-commerce Admin (microsservice-ecommerce-admin):**
-   - Processes order notifications and records daily sales.
-   - Utilizes ORM for data persistence and clean architecture principles.
-   - Implements parallel processing for efficient inventory updates.
-   - Notifies the ecommerce backend about inventory updates via RabbitMQ.
-   - Periodically synchronizes inventory with the ecommerce backend.
+## Table of Contents
+- [Description](#description)
+- [Project Status](#project-status)
+- [Features and Application Demo](#features-and-application-demo)
+- [Project Access](#project-access)
+- [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+- [Project Developers](#project-developers)
+- [License](#license)
 
-## Getting Started
+## Description
+This repository contains two microservices implemented in Go (Golang), integrated with RabbitMQ for asynchronous messaging. Utilizing ORM for data persistence and following the principles of clean architecture, these microservices facilitate efficient communication within a distributed e-commerce system, focusing on backend functionalities.
+
+## Project Status
+The project is under development.
+
+## Features and Application Demo
+- **Microservice E-commerce (microsservice-ecommerce):**
+  - Manages orders using clean architecture principles.
+  - Utilizes ORM for data persistence.
+  - Notifies the admin backend about order-related actions via RabbitMQ.
+- **Microservice E-commerce Admin (microsservice-ecommerce-admin):**
+  - Processes order notifications and records daily sales.
+  - Utilizes ORM and clean architecture principles.
+  - Periodically synchronizes inventory with the ecommerce backend.
+
+## Project Access
 To get started with this project, follow these steps:
-
 1. **Clone the Repository:** `git clone https://github.com/peacevan/golang-microsservice-with-rabbitmq.git`
-2. **Navigate to Submodules:** Enter the directories for `microsservice-ecommerce` and `microsservice-ecommerce-admin`.
-3. **Install Dependencies:** Ensure Go, ORM library (e.g., GORM), and RabbitMQ are installed on your system.
-4. **Configuration:** Update the configuration files as needed to match your environment.
-5. **Build and Run:** Build the microservices using `go build` and run them using `./<executable_name>`.
+2. **Install Dependencies:** Ensure Go, RabbitMQ, and ORM library (e.g., GORM) are installed on your system.
+3. **Configuration:** Update the configuration files as needed to match your environment.
+4. **Build and Run:** Build the microservices using `go build` and run them using `./<executable_name>`.
 
-## Usage
-Once the microservices are up and running, the ecommerce backend can be used to manage orders, while the admin backend processes orders, updates sales and inventory, and synchronizes inventory with the ecommerce backend.
+## Technologies Used
+- Go (Golang)
+- RabbitMQ
+- ORM (e.g., GORM)
 
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
+## Contributors
+- [Contributor Name](https://github.com/username)
+
+## Project Developers
+- [Developer Name](https://github.com/username)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
