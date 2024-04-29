@@ -48,6 +48,8 @@ To get started with this project, follow these steps:
 - Go (Golang)
 - RabbitMQ
 - ORM (e.g., GORM)
+- Postgres
+- Docker
 
 ## Contributors
 - [Contributor Name](https://github.com/username)
