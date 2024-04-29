@@ -22,7 +22,10 @@
 This repository contains two microservices implemented in Go (Golang), integrated with RabbitMQ for asynchronous messaging. Utilizing ORM for data persistence and following the principles of clean architecture, these microservices facilitate efficient communication within a distributed e-commerce system, focusing on backend functionalities.
 
 ## Project Status
-The project is under development.
+
+<h4 align="center"> 
+    :construction:  The project is under development.  :construction:
+</h4>
 
 ## Features and Application Demo
 - **Microservice E-commerce (microsservice-ecommerce):**
