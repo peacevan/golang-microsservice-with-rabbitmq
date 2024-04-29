@@ -1,0 +1,8 @@
+
+[submodule "microsservice-ecommerce-admin"]
+    path = microsservice-ecommerce-admin
+    url = https://github.com/peacevan/microsservice-ecommerce-admin.git
+
+[submodule "microsservice-ecommerce"]
+    path = microsservice-ecommerce
+    url = https://github.com/peacevan/microsservice-ecommerce.git
