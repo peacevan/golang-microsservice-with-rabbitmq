@@ -3,7 +3,7 @@
 
 # E-commerce Microservices with Go-lang and RabbitMQ
 
-![E-commerce Microservices](https://example.com/e-commerce-microservices.jpg)
+![E-commerce Microservices](/asset/img/diagram.png)
 
 ## Badges
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/peacevan/golang-microsservice-with-rabbitmq/blob/main/LICENSE)
