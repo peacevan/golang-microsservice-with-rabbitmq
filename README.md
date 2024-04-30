@@ -55,7 +55,7 @@ To get started with this project, follow these steps:
 - [Contributor Name](https://github.com/username)
 
 ## Project Developers
-- [Developer Name](https://github.com/username)
+- [Ivan Amado Cardoso](https://github.com/peacevan)
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
