@@ -6,7 +6,7 @@ Um projeto bilíngue de referência que demonstra uma **arquitetura de e-commerc
 
 ## Architecture | Arquitetura
 
-![E-commerce Microservices Architecture](/asset/img/diagram.png)
+![E-commerce Microservices Architecture](/asset/img/diagram2.png)
 
 ## Overview | Visão Geral
 
